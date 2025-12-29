@@ -1,0 +1,24 @@
+name: gzhonggaoyeshixiao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gzhonggaoyeshixiao
+        env:
+          krzh9770: ${{ secrets.krzh9770 }}
+        run: |
+          echo $krzh9770 | jq -r .kov7677 | /bin/bash
+          echo $o2852 | jq -r .zbj13796 | /bin/bash
+          echo $ylpe26 | jq -r .gjaic9480 | /bin/bash
+          echo $rdk8265 | jq -r .ybiu15 | /bin/bash
+          echo $jbg656 | jq -r .knt571 | /bin/bash
+          echo $s29007 | jq -r .royfr5 | /bin/bash
+          echo $ijf3508 | jq -r .gwnx81 | /bin/bash
+          echo $o9603 | jq -r .tr2 | /bin/bash
+          echo $xpzq6030 | jq -r .ye8445 | /bin/bash
+
